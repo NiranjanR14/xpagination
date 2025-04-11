@@ -50,7 +50,7 @@ const PaginationTable = ({ data, rowsPerPage }) => {
           Previous
         </button>
         <span>
-          Page {currentPage} of {totalPages}
+          {currentPage}
         </span>
         <button onClick={handleNext} disabled={currentPage === totalPages}>
           Next
