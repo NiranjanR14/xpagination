@@ -19,7 +19,7 @@ function App() {
         setData(result);
       } catch (error) {
         console.error("Failed to fetch data:", error);
-        alert("Error details : ", error);
+        alert("failed to fetch data");
       }
     };
 
